@@ -1,0 +1,104 @@
+html, body {
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 1205px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -125px 0 0 -603px;
+}
+.container > div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.popup-form {
+	width: 342px;
+	border: 1px solid #e9e9e9;
+	padding: 0 20px 19px;
+}
+.popup-form .title {
+	border-bottom: 1px solid #e9e9e9;
+	margin: 0 -20px 20px;
+	padding: 0 20px;
+	line-height: 45px;
+	position: relative;
+	font-size: 20px;
+}
+.popup-form .title .registration-link,
+.popup-form .title .login-link {
+	position: absolute;
+	text-decoration: none;
+	color: #5da654;
+	top: 14px;
+	right: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: normal;
+}
+.popup-form .help-text {
+	line-height: 20px;
+  	margin: 0 0 15px;
+}
+.popup-form .input-item {
+	margin: 0 0 20px;
+}
+.popup-form .input-item input {
+	outline: none;
+	font-weight: bold;
+	border: 1px solid #e9e9e9;
+	border-radius: 2px;
+	padding: 9px 8px 7px;
+  	width: 324px;
+}
+.popup-form .submit-item {
+	position: relative;
+}
+.popup-form .submit-item input {
+	border: none;
+	background: #5da654;
+	transition: background 0.1s linear;
+	-webkit-transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	color: #fff;
+	outline: none;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 8px 31px;
+	border-radius: 2px;
+}
+.popup-form .submit-item input:hover {
+	background: #6cb863;
+}
+.popup-form .submit-item input:active {
+	background: #4e9845;
+}
+.popup-form .submit-item .forgot-password {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 60px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+}
+.popup-form .submit-item .forgot-password a {
+	color: #5da654;
+	text-decoration: none;
+}
+
+
+.registration-block {
+	margin: 0 20px;
+}
+.registration-block .submit-item input {
+	padding: 8px 11px;
+}
+
+
+.forgot-password-block .submit-item input {
+	padding: 8px 26px;
+} 

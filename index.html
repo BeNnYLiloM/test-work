@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="login-block popup-form">
+			<div class="title">
+				Вход
+				<a href="#" class="registration-link">Регистрация</a>
+			</div>
+			<form action="">
+				<div class="input-item">
+					<input type="text" placeholder="Электронная почта" onclick="this.placeholder=''" onblur="this.placeholder='Электронная почта'" />
+				</div>
+				<div class="input-item">
+					<input type="text" placeholder="Пароль" onclick="this.placeholder=''" onblur="this.placeholder='Пароль'" />
+				</div>
+				<div class="submit-item">
+					<input type="submit" value="Войти" />
+					<div class="forgot-password">
+						<a href="#">Забыли пароль?</a>
+					</div>
+				</div>
+			</form>
+		</div><!-- end .login-block -->
+
+		<div class="registration-block popup-form">
+			<div class="title">
+				Регистрация
+				<a href="#" class="login-link">Вход</a>
+			</div>
+			<form action="">
+				<div class="input-item">
+					<input type="text" placeholder="Электронная почта" onclick="this.placeholder=''" onblur="this.placeholder='Электронная почта'" />
+				</div>
+				<div class="input-item">
+					<input type="text" placeholder="Придумайте пароль" onclick="this.placeholder=''" onblur="this.placeholder='Придумайте пароль'" />
+				</div>
+				<div class="submit-item">
+					<input type="submit" value="Зарегистрироваться" />
+				</div>
+			</form>
+		</div><!-- end .registration-block -->
+
+		<div class="forgot-password-block popup-form">
+			<div class="title">
+				Пароль потерялся
+				<a href="#" class="login-link">Вход</a>
+			</div>
+			<form action="">
+				<div class="help-text">Мы вышлем письмо для смены пароля вам на электронную почту, указанную при регистрации:</div>
+				<div class="input-item">
+					<input type="text" placeholder="Электронная почта" onclick="this.placeholder=''" onblur="this.placeholder='Электронная почта'" />
+				</div>
+				<div class="submit-item">
+					<input type="submit" value="Отправить" />
+				</div>
+			</form>
+		</div><!-- end .forgot-password-block -->
+	</div><!-- end .container -->
+</body>
+</html>
